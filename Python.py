@@ -21,3 +21,5 @@ while (blocks>0):
 #	
 
 print("The height of the pyramid:", height)
+
+#Just for practice 
