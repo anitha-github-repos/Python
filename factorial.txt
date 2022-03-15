@@ -11,4 +11,3 @@ def factorial_function(n):
 for i in range(1,6):
     print(i,factorial_function(i))
 
-print("Anitha Marisetti")
