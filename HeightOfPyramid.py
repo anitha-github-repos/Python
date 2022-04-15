@@ -3,7 +3,6 @@ height = 0
 layer = 0
 used_blocks = 0
 
-#I am a pig
 # Write your code here.
 
 while (blocks>0):
@@ -23,3 +22,5 @@ while (blocks>0):
 print("The height of the pyramid:", height)
 
 #Just for practice 
+
+print("practice session")
