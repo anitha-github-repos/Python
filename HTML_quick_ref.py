@@ -9,3 +9,5 @@
 </center>
 
 <!-- for commenting in HTML -->
+
+font sizing = 16px = 100% = 1em
