@@ -34,7 +34,8 @@ for listing in all_listings:
         easy_apply = driver.find_element(By.CSS_SELECTOR, "div .jobs-apply-button--top-card .artdeco-button__text")
         easy_apply.click()
         time.sleep(5)
-        mobile_number = driver.find_element(By.CSS_SELECTOR, "div .display-flex input.ember-text-field")
+        #mobile_number = driver.find_element(By.CSS_SELECTOR, "div .display-flex input.ember-text-field")
+        mobile_number = driver.find_element(By.CLASS_NAME, "fb-single-line-text__input")
         if mobile_number.text == "":
             mobile_number.send_keys("111111111")
         submit_button = driver.find_element(By.CSS_SELECTOR, "div .justify-flex-end .artdeco-button__text")
